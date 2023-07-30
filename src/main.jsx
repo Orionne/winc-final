@@ -4,8 +4,13 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { DataContextProvider } from "./components/DataContext";
 import { Root } from "./components/Root";
-import { EventPage, loader as eventLoader } from "./pages/EventPage";
+import {
+  action as editEvent,
+  EventPage,
+  loader as eventLoader,
+} from "./pages/EventPage";
 import { EventsPage, loader as eventsPageLoader } from "./pages/EventsPage";
+import { action as createEvent, NewEvent } from "./pages/NewEvent";
 
 const router = createBrowserRouter([
   {
@@ -21,7 +26,12 @@ const router = createBrowserRouter([
         path: "/events/:eventId",
         element: <EventPage />,
         loader: eventLoader,
-        // action: addComment,
+        action: editEvent,
+      },
+      {
+        path: "/events/new",
+        element: <NewEvent />,
+        action: createEvent,
       },
     ],
   },

@@ -18,7 +18,9 @@
       "title": "Trampoline party",
       "description": "Bounce around with your friends",
       "image": "https://i.pinimg.com/736x/3d/2f/af/3d2faf4e3188d34a9fcdc00df59e77b0.jpg",
-      "categoryIds": [2],
+      "categoryIds": [
+        2
+      ],
       "location": "My back yard",
       "startTime": "2023-03-10T18:00",
       "endTime": "2023-03-10T17:00:00.000Z"
@@ -29,7 +31,9 @@
       "title": "Laser Tag mania",
       "description": "Let's play laser tag!",
       "image": "https://www.ctvnews.ca/polopoly_fs/1.5118552.1600965663!/httpImage/image.jpg_gen/derivatives/landscape_1020/image.jpg",
-      "categoryIds": [2],
+      "categoryIds": [
+        2
+      ],
       "location": "Blinded by the Lights Laser Tag, 15 Main St.",
       "startTime": "2023-04-06T18:46",
       "endTime": "2023-04-06T17:46"
@@ -40,21 +44,35 @@
       "title": "Badminton game",
       "description": "Hit that shuttle!",
       "image": "https://s3.eu-west-2.amazonaws.com/ws-activestirling/production/Badminton/_1200x630_crop_center-center_none/Badminton-3.jpg",
-      "categoryIds": [1, 2],
+      "categoryIds": [
+        1,
+        2
+      ],
       "location": "The Park",
       "startTime": "2023-03-15T12:00:00.000Z",
       "endTime": "2023-03-15T13:30:00.000Z"
     },
     {
       "id": 4,
-      "createdBy": 2,
+      "createdBy": "1",
       "title": "Yoga",
       "description": "It's a bit of a stretch.",
       "image": "https://ymcasouthflorida.org/wp-content/uploads/2019/12/AA2I8910-scaled.jpg",
-      "categoryIds": [3],
+      "categoryIds": [
+        3
+      ],
       "location": "Shavasana Yoga School",
       "startTime": "2023-03-09T06:00:00.000Z",
-      "endTime": "2023-03-09T07:00:00.000Z"
+      "endTime": "2023-03-09T07:00:00.000Z",
+      "formData": {
+        "image": "https://ymcasouthflorida.org/wp-content/uploads/2019/12/AA2I8910-scaled.jpg",
+        "title": "Yoga",
+        "description": "It's a bit of a stretch.",
+        "location": "Shavasana Yoga School",
+        "startTime": "2023-03-09T06:00:00.000Z",
+        "endTime": "2023-03-09T07:00:00.000Z",
+        "createdBy": "2"
+      }
     },
     {
       "id": 5,
@@ -62,10 +80,64 @@
       "title": "Depeche Mode concert",
       "description": "Memento Mori Tour, hailed by Rolling Stone as 'a stunning celebration of life and music.'",
       "image": "https://cms.virginradio.co.uk/wp-content/uploads/2023/07/Web-Depeche-Mode-Tour-Getty-Livenation.png?w=920&h=518&crop=1",
-      "categoryIds": [3],
+      "categoryIds": [
+        3
+      ],
       "location": "Amsterdam Ziggo Dome",
       "startTime": "2024-02-08T20:00",
       "endTime": "2024-02-08T22:00"
+    },
+    {
+      "image": "https://www.oppenheimermovie.com/meta/meta-v3-en_US.jpg",
+      "title": "Oppenheimer 2023",
+      "categoryIds": [
+        3
+      ],
+      "description": "A 2023 biographical drama film written and directed by Christopher Nolan. Based on the 2005 biography American Prometheus by Kai Bird and Martin J. Sherwin, the film chronicles the life of J. Robert Oppenheimer, an American theoretical physicist who was pivotal in developing the first nuclear weapons as part of the Manhattan Project, and thereby ushering in the Atomic Age.",
+      "location": "Any Pathe close to you",
+      "startTime": "2023-07-21",
+      "endTime": "2024-01-01",
+      "createdBy": "1",
+      "id": 6
+    },
+    {
+      "image": "https://www.amsterdamsights.com/events/pix/fashionweek-e.jpg",
+      "title": "Amsterdam Fashion Week",
+      "categoryIds": [
+        3
+      ],
+      "description": "Catwalk shows and exhibitions on Dutch and Belgian fashion organised at galleries, museums, cinemas, shops and clubs throughout Amsterdam.",
+      "location": "Amsterdam",
+      "startTime": "2023-08-30",
+      "endTime": "2023-09-02",
+      "createdBy": "2",
+      "id": 7
+    },
+    {
+      "image": "https://www.amsterdamsights.com/events/pix/damloop-e.jpg",
+      "title": "Dam tot Damloop",
+      "categoryIds": [
+        1
+      ],
+      "description": "Large running event from the centre of Amsterdam to the centre of Zaandam over a distance of 10 English Mile with an unique passage through the IJtunnel.",
+      "location": "Amsterdam",
+      "startTime": "2023-09-16",
+      "endTime": "2023-09-17",
+      "createdBy": "1",
+      "id": 8
+    },
+    {
+      "image": "https://www.amsterdamsights.com/events/pix/tf-e.jpg",
+      "title": "Dutch Theater Festival",
+      "categoryIds": [
+        2
+      ],
+      "description": "Presents the best performances of the season, also for a non Dutch-speaking audience.",
+      "location": "Amsterdam",
+      "startTime": "2023-09-07",
+      "endTime": "2023-09-17",
+      "createdBy": 2,
+      "id": 9
     }
   ],
   "categories": [

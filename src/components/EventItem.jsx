@@ -1,13 +1,16 @@
 import { Box, chakra, Flex, Image } from "@chakra-ui/react";
+import React from "react";
 import { Link } from "react-router-dom";
 
 export const EventItem = ({ eventData, categories }) => {
   let categoryNames;
   if (categories.length > 0) {
-    categoryNames = eventData.categoryIds.map((category) => {
-      const cat = categories.find((obj) => obj.id === category);
-      return cat.name;
-    });
+    if (Array.isArray(eventData.categoryIds)) {
+      categoryNames = eventData.categoryIds.map((category) => {
+        const cat = categories.find((obj) => obj.id === category);
+        return cat.name;
+      });
+    }
   }
 
   return (
